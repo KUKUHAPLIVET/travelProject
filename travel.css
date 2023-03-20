@@ -1,0 +1,170 @@
+.main {
+  width: 1440px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Red Hat Text', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.headerLogo{
+  margin-right: 10%;
+  padding: 1% 2%;
+  display: flex;
+}
+.logoText{
+font-family: Magra;
+font-size: 32px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0em;
+}
+.headerLogo img{
+  width: 30px;
+  height: 30px;
+}
+
+.infoHeader{
+  width: 35%;
+  display: flex;
+
+  justify-content: space-between;
+  height: 100%
+}
+
+
+.loginButton {
+  margin-left: 5%;
+  padding: 0.7% 1.5%;
+  background-color: rgba(13, 96, 111, 1);
+  border-radius: 10px;
+
+}
+
+.sectionInfo {
+  font-family: 'Aleo', serif;
+  flex-direction: column;
+  color: white;
+}
+
+
+.sectionButton {
+  padding: 0.7% 1.5%;
+  background-color: rgba(13, 96, 111, 1);
+  border-radius: 10px;
+
+}
+.backgroundImg {
+    background-image: url('img/backgroundPNG.png');
+
+
+}
+
+
+.stepsTrip {
+  font-family: 'Red Hat Text', sans-serif;
+font-size: 40px;
+font-weight: 500;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+
+  text-align: center;
+
+  color:  rgba(242, 120, 92, 1)
+
+}
+
+
+.stepsInfo {
+
+  font-family: 'Aleo', serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+  display: flex;
+  color: rgba(13, 96, 111, 1);
+  justify-content: space-around;
+}
+
+
+.sliderMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.sliderImg {
+  width: 800px;
+  height: 800px;
+}
+.ellipses {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.travelStorieHeader {
+  color:  rgba(242, 120, 92, 1);
+  text-align: center;
+  
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+line-height: 53px;
+letter-spacing: 0em;
+
+}
+
+.storieWrapper {
+  margin: 10px 50px 50px;
+  display: flex;
+}
+.storieWrapper img{
+  border-radius: 5%;
+}
+
+.storiesName { 
+padding-bottom: 24px;
+  font-family: 'Aleo', serif;
+font-size: 35px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+}
+.storieText {
+
+  font-family: 'Aleo', serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+
+  margin-left: 40px;
+}
+.travelStoriesMain {
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.footerWrapper {
+  
+  color: rgba(13, 96, 111, 1);
+  
+  background-image: url('img/footerBack.png');
+}
