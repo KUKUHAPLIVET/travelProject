@@ -3,6 +3,7 @@
 }
 
 .header {
+  background: rgba(242, 120, 92, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,21 +51,62 @@ letter-spacing: 0em;
 }
 
 .sectionInfo {
+  margin-left: 15%;
   font-family: 'Aleo', serif;
   flex-direction: column;
   color: white;
 }
 
+.sectionHeader{
+  margin-top: 2%;
+  font-family: 'Aleo', serif;
+font-size: 80px;
+font-weight: 700;
+line-height: 96px;
+letter-spacing: 0em;
+text-align: left;
 
+}
+
+.buttonWrapper {
+
+  align-items: center;
+  width: 70%;
+  padding: 1% 0.1% 1% 2%;
+  display: flex;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+}
+
+.buttonName {
+  padding-right: 45%;
+  font-family: 'Aleo', serif;
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+color: rgba(242, 120, 92, 1);
+
+}
 .sectionButton {
-  padding: 0.7% 1.5%;
+
+  padding: 2% 3.5%;
   background-color: rgba(13, 96, 111, 1);
   border-radius: 10px;
+  color: white;
+  font-family:'Red Hat Text', sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
 
 }
 .backgroundImg {
     background-image: url('img/backgroundPNG.png');
-
+    padding-bottom: 25%;
 
 }
 
